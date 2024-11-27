@@ -43,3 +43,23 @@ img {
 ul {
     font-size: 1.1rem;
 }
+
+/* Home Section Background */
+/* Home Section Background */
+#home {
+    background: url('banner1.jpg') no-repeat right center; /* Align image on the right */
+    background-size: cover; /* Cover the entire section */
+    background-attachment: fixed; /* Optional: Adds a parallax effect */
+    background-color: #f8f9fa; /* Fallback background color */
+    height: 100vh; /* Set section height to fill the viewport */
+    display: flex; /* Align content vertically */
+    align-items: center; /* Center content vertically */
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+}
+
+#home h1, #home h4 {
+    color: rgb(0, 0, 0); /* Adjust text color for visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+    margin: 0;
+}
