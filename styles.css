@@ -1,0 +1,45 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: #19006c;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 0px;
+    text-align: center;
+    background-image: url("main_background.png");
+    background: linear-gradient(135deg, #00ccffe4, #fbff00); /* Blue to Green */
+    color: #000000;
+}
+
+/* Section Styling */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 30px;
+    
+}
+
+img {
+    max-width: 100%;
+    margin-top: 0px;
+    align-self: center;
+    word-wrap: normal;
+}
+
+ul {
+    font-size: 1.1rem;
+}
